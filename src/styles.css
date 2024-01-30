@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-position: center;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-size: cover;
+    height: 109vh;
+}
+.main{
+    /* width: 100%;
+    background-position: center;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-size: cover;
+    height: 109vh; */
+}
+.navbar{
+    width: 1200px;
+    height: 750px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu-bar{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+    font-weight: bold;
+    font-family: Arial;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    color: #fff;
+    margin-top: 10px;
+    border: 1px solid #ff7200;
+    border-right: none;
+    font-size: 15px;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background: transparent;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px ;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;  
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: -550px;
+}
+.content h1{
+    font-size: 60px;
+    /* position: absolute; */
+    color: white;
+}
+span{
+    color: #ff7200;
+    font-size: 60px;
+}
+.content .para{
+    margin-top: 10px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+.cn{
+    width: 150px;
+    height: 40px;
+    background-color: #ff7200;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.cn a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+}
+.form{
+    width: 300px;
+    height: 420px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    margin-top: 190px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.form h2{
+    color: #ff7200;
+    /* margin-left: 10px; */
+    text-align: center;
+    background-color: white;
+    height: 40px;
+    width: 250px;
+    margin: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form input{
+    margin-left: 50px;
+    transition: 0.4s ease-in-out;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    /* border: 1px solid transparent; */
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.form input:hover{
+    background-color: #ff7200;
+}
+.form .btn{
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.form .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    /* margin-top: 90px; */
+}
+.form .link{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a .sign-up{
+    color: white;
+}
+a .sign-up span{
+    color: #ff7200;
+    text-decoration: none;
+    font-size: 10px;
+}
+.form .login{
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.image-section{
+    position: absolute;
+    top: 510px;
+    left: 1050px;
+    margin-top: 20px;
+    /* margin-left: 50px; */
+}
+img{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
